@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(137, 43, 226, 0.5);
+    
+}
+
+.title {
+   height: 20vh;
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+   font-size: 40px;
+
+}
+
+.carousel-container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    position: relative
+}
+
+.carousel-slide {
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+
+.carousel-slide img {
+    height: 100%;
+    width: 100%;
+}
+
+#previousBtn {
+position: absolute;
+top: 50%;
+z-index: 10;
+left: 10%;
+font-size: 40px;
+color: white;
+cursor: pointer;
+}
+
+#nextBtn {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    right: 10px;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+}
