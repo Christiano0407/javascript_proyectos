@@ -48,6 +48,7 @@ header {
  }
 
  .nav-links {
+     
      justify-content: space-around;
      list-style: none;
  }
@@ -121,3 +122,40 @@ header {
      animation: drop 1.5s ease;
  }
  
+
+ .big-circle {
+     position: absolute;
+     top: 0px;
+     right: 0px;
+     z-index: -1;
+     opacity: 0.5;
+     height: 80%;
+ }
+
+ .medium-circle {
+     position: absolute;
+     top: 30%;
+     right: 30%;
+     z-index: -1;
+     height: 60%;
+     opacity: 0.4;
+ }
+
+ .small-circle {
+     width: 15%;
+     display: flex;
+     justify-content: space-around;
+    position: absolute;
+    right: 20%;
+ }
+
+
+ .laptop-select {
+     width: 15%;
+     display: flex;
+     justify-content: space-around;
+     position: absolute;
+     right: 20%;
+ }
+
+
