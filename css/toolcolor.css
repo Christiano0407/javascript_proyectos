@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #efefef;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 300px;
+}
+
+figure {
+    width: 100%;
+    position: relative;
+}
+
+figure .map {
+    width: 100%;
+    vertical-align: top;
+    box-shadow: 5px 5px 60px rgba(0, 0, 0, .20);
+    border-radius: 20px;
+}
+
+figure .icon {
+position: absolute;
+font-size: 40px;
+color: #ea4335;
+top: 32%;
+left: 55.3%;
+}
+
+.tooltip {
+    display: flex;
+    position: absolute;
+    top: 0;
+    background: #efefef;
+    border-radius: 10px;
+    box-shadow: 5px 5px 60px rgba(0, 0, 0, .20);
+    width: 31.25em;
+    z-index: 1000;
+    opacity: 0;
+    transition: .3s ease all;
+    transform: translateY(10px);
+}
+
+.tooltip::after{
+    
+    display: inline-block;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #efefef;
+    position: absolute;
+    bottom: -15px;
+    left: calc(50% - 15px);
+}
+
+.tooltip.active {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.tooltip .thumb {
+    width: 40%;
+}
+
+.tooltip .thumb img {
+    width: 100%;
+    border-radius: 10px 0 0 10px;
+}
+
