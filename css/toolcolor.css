@@ -73,6 +73,50 @@ left: 55.3%;
 
 .tooltip .thumb img {
     width: 100%;
-    border-radius: 10px 0 0 10px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px 0 0 20px;
+    vertical-align: top;
 }
 
+.tooltip .info {
+    width: 60%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tooltip .info {
+    color: rgb(66, 66, 66);
+    font-weight: 600;
+    margin-bottom: 10px;;
+}
+
+.title {
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+
+.tooltip .info button {
+    border: none;
+    background: rgb(28, 79, 248);
+    font-weight: bold;
+    padding: 10px 20px;
+    width: 80%;
+    color: #efefef;
+    border-radius: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.tooltip .info button:hover {
+    background: rgb(112, 146, 255);
+}
+
+button .container.btn {
+    display: flex;
+    justify-content: center;
+}
