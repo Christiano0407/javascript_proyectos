@@ -120,3 +120,36 @@ button .container.btn {
     display: flex;
     justify-content: center;
 }
+
+@media screen and (max-width: 768px) {
+	figcaption .tooltip {
+		font-size: 12px;
+	}
+
+	.tooltip .info button {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	figure .mapa {
+		margin-bottom: 40px;
+	}
+
+	figcaption .icono {
+		top: 32px;
+		/* display: none; */
+	}
+
+	.tooltip {
+		position: static;
+		opacity: 1;
+		width: 100%;
+		transform: translate(0);
+	}
+
+	.tooltip::after {
+		content: "";
+		display: none;
+	}
+}
