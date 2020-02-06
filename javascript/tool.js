@@ -24,3 +24,20 @@ window.addEventListener(`resize`, () =>{
     calPositionTooltip();
 } );
 
+
+icon.addEventListener(`mouseenter`, () => {
+    tooltip.classList.add(`active`);
+    calPositionTooltip();
+});
+
+let timer;
+icon.addEventListener(`mouseLeave`, () => {
+    timer = setTimeout(() => {
+     tooltip.classList.remove(`active`)
+    }, 3000);
+});
+
+
+tooltip.addEventListener(`mouseenter`, () => clearTimeout(timer));
+tooltip.addEventListener(`mouseleave`, () => tooltip.classList.remove(`active`));
+
