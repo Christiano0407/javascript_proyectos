@@ -128,7 +128,7 @@ body {
  }
 
  .wrapper .social-icons .icon a {
-     color: white;
+    color: white;
      width: 59px;
      height: 59px;
      font-size: 28px;
@@ -137,3 +137,44 @@ body {
      border-radius: 30px;
  }
 
+ .wrapper .social-icons .icon:nth-of-type(1) a{
+     background:linear-gradient(to-bottom right, 
+     rgba(37, 112, 117, 0.94), #ff48a0);
+ }
+
+ .wrapper .social-icons .icon:nth-of-type(2) a{
+    background:linear-gradient(to-bottom right, 
+    rgba(12, 23, 131, 0.94), #ff48a0);
+}
+
+.wrapper .social-icons .icon:nth-of-type(3) a{
+    background:linear-gradient(to-bottom right, 
+    rgba(3, 232, 248, 0.94), #054f81);
+}
+
+.wrapper .social-icons .icon h4 {
+    color: white;
+    font-size: 1em;
+    margin-top: 1.3em;
+    margin-bottom: .2em;
+}
+.wrapper .social-icons .icon p {
+    color: white;
+    font-size: 12px;
+}
+
+.bg-1:hover{
+    background: #0e2feb;
+}
+
+.bg-2:hover{
+    background: #be0675;
+}
+
+.bg-3:hover{
+    background: rgba(3, 232, 248, 0.94);
+}
+
+h3,p,title:hover{
+    color: white !important;
+}
