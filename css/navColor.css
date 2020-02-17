@@ -18,7 +18,7 @@ h1,h2,h3,h4,h5,h6 {
    margin-bottom: 0; 
 }
 
-/* .text-orange {
+.text-orange {
     font-weight: 700;
     color: orangered;
 }
@@ -30,5 +30,5 @@ h1,h2,h3,h4,h5,h6 {
 
 .text-black {
     color: #000;
-} */
+} 
 
