@@ -11,6 +11,6 @@ const page = new fullpage(`#fullpage`, {
     navigation:true,
     menu:`#menu`,
     anchors:[`start`,`product`, `contact`],
-    navigationToolTips:[`start`,`product`, `contact`],
-    showActiveTooltip:false,
+    navigationTooltips:[`start`,`product`, `contact`],
+    showActiveTooltip:true,
 });
