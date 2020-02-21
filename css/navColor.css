@@ -136,7 +136,24 @@ header .container-icon {
 
 /* product */
 
-article {
+ article {
     background-position: center;
     background-size: cover;
+}
+article:nth-child(1){
+    background-image: url("../img/Cover.png");
+   /*  background-repeat: no-repeat;
+    background-size: cover;  */
+}
+
+article:nth-child(2) {
+    background-image: url("../img/play.png");
+  /*   background-size: cover;
+    background-repeat: no-repeat; */
+}
+
+article:nth-child(3){
+    background-image: url("../img/matebook.png");
+    /* background-repeat: no-repeat;
+    background-size: cover; */
 }
