@@ -6,7 +6,8 @@ const page = new fullpage(`#fullpage`, {
      css3:true,
      easingcss3:`ease-out`,
     loopBottom:true,
-    /*  sectionsColor: ['#f2f2f2', '#4BBFC3', '#7BAABE', 'whitesmoke', '#000'],  */
+    sectionsColor: ['#f2f2f2', '#AB05F2', '#0015FF', 'whitesmoke', '#000'],  
+    verticalCentered:true,
     //navigation
     navigation:true,
     menu:`#menu`,

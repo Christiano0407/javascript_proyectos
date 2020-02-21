@@ -81,7 +81,7 @@ border-bottom: 2px solid rgb(0, 140, 255);;
 
 .menu li.active a,
 .menu li:hover a {
-    color: rgb(0, 140, 255);;
+    color: rgb(0, 140, 255);
 }
 header {
      background: url("../img/play.png"); 
@@ -134,3 +134,9 @@ header .container-icon {
     }
 }
 
+/* product */
+
+article {
+    background-position: center;
+    background-size: cover;
+}
