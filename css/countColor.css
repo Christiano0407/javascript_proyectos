@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #EFEFEF;
+    color: #363639;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.landing {
+  width: 100%;
+  background: #EFEFEF;
+  min-height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: all .5s ease-in-out;
+}
+
+.landing .header {
+    margin-bottom: 100px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.landing .header .logo {
+font-size: 50px;
+font-size: 900;
+margin-bottom: 20px;
+}
+
+.landing .header .message {
+    font-size: 30px;
+    font-weight: 600;
+} 
+
+.main {
+    max-width: 100px;
+    margin: auto;
+    width: 90%;
+    padding: 60px 0;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+}
