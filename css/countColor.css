@@ -52,3 +52,19 @@ margin-bottom: 20px;
     line-height: 28px;
     text-align: left;
 }
+
+.social-media .btn-red-social {
+    padding: 15px 0;
+    display: inline-block;
+    min-width: 120px;
+    border-radius: 5px;
+    background: #FF0000;
+    color: #fff;
+    font-size: 30px;
+    margin: 0 20px;
+    transition:all .3 ease;
+}
+
+.social-media .btn-red-social:hover {
+    box-shadow: 0px 0px 50px 10px rgba(0,0,0,.15); 
+}
