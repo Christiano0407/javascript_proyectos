@@ -47,10 +47,37 @@ nav {
 }
 
 @media screen and (max-width:768px){
+    .line {
+        width: 30px;
+        height: 3px;
+        background: white;
+        margin: 5px;
+    }
+
+    nav {
+        position: relative;
+    }
+
+    .hamburger {
+        position: absolute;
+        cursor: pointer;
+        right: 5%;
+        top: 25%;
+        transform: translate(-5%, 25%);
+    }
+
     .nav-link {
         position: fixed;
         background: rgb(2, 245, 253);
         height:100vh;
         width: 100%;
+        flex-direction: column;
+        clip-path: circle(100px at 90% -10%); 
+        -web-clip-path:circle(500px at 90% -10%);
+        transition: all 1s ease-out;
+    }
+    .nav-link.open {
+        clip-path: circle(100px at 90% -10%); 
+        -web-clip-path:circle(100px at 90% -10%);
     }
 }
